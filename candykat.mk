@@ -23,14 +23,14 @@ TARGET_SCREEN_HEIGHT := 1024
 TARGET_SCREEN_WIDTH := 600
 
 # Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/candykat/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/p3110/full_p3110.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p3110
-PRODUCT_NAME := slim_p3110
+PRODUCT_NAME := candykat_p3110
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P3110
 PRODUCT_MANUFACTURER := samsung
